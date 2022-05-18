@@ -1,5 +1,17 @@
+html,
+body {
+  height: 100% !important;
+  margin: 0 !important;
+  background: linear-gradient(to top right, #115DA3, #4ECFED);
+}
+
 .App {
+  font-family: open-sans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: #65aed5;
+  margin-top: 60px;
 }
 
 .App-logo {
@@ -32,7 +44,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.title {
+  color: white;
+}
+
+.weather-container {
+  background: white;
+}
+
+.current-weather {}
